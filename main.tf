@@ -32,7 +32,7 @@ resource "aws_instance" "demo_ec2" {
   vpc_security_group_ids = [aws_security_group.web_sg.id]
 
   root_block_device {
-    volume_size = var.root_volume_size
+    volume_size = 9
   }
 
   tags = {
