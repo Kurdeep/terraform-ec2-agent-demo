@@ -7,6 +7,6 @@ variable "instance_type" {
 }
 
 variable "root_volume_size" {
-  default = 3
+  default = 8
 }
 
